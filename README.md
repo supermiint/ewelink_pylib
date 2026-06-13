@@ -30,6 +30,13 @@ pip install -r requirements.txt
 
 ## Configuration
 
+### How to Get Your AppID and AppSecret
+1. Go to the [eWeLink Developer Center](https://dev.ewelink.cc/) and register or log in to your developer account.
+2. Go to the **Developer Center Console**.
+3. Create a new application (typically under the "App" or "Application Management" section).
+4. Fill in the required application details. Once the application is created, you will see your unique **AppID** and **AppSecret**.
+5. Copy these values into your `.env` file as shown below.
+
 Create a `.env` file in the root of your directory with the following variables:
 
 ```env
@@ -105,3 +112,10 @@ client.control_device("1000abc123", "on")
 # 5. Turn a multi-channel outlet OFF (e.g., outlet index 0)
 client.control_device("1000xyz789", "off", outlet=0)
 ```
+
+---
+
+## Contributors
+
+- **Antigravity** - An AI Coding Assistant designed by Google DeepMind.
+
