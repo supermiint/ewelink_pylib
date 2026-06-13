@@ -1,6 +1,6 @@
 # eWeLink Python Library and CLI Utility
 
-A clean, reusable Python library and command-line interface (CLI) to interact with the eWeLink V2 API (coolkit.cc). Designed for easy local development and distribution on GitHub.
+A clean, reusable Python library and command-line interface (CLI) to interact with the eWeLink V2 API (coolkit.cc). Designed for easy local development..
 
 ## Features
 
